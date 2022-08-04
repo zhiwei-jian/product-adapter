@@ -1,0 +1,23 @@
+# Copyright © 2016-2022 Dell Inc. or its subsidiaries.
+# All Rights Reserved.
+
+# NOTE:
+# To regenerate requirements.txt, run:
+# pip-compile requirements.in
+#
+# Please check requirements.txt and ensure this line is not added:
+# --extra-index-url https://pypi.org/simple
+#
+# If it is, update your pip.conf file to remove that entry and then re-run pip-compile. Verify the line is removed in
+# the newly generated requirements.txt.
+#
+# pip.conf should be located at:
+# - On *nix the default pip.conf file is: $HOME/.config/pip/pip.conf
+# - On Mac OS X the default pip.conf file is: $HOME/Library/Application Support/pip/pip.conf.
+# - On Windows the default pip.conf file is: %APPDATA%\pip\pip.ini.
+#
+# pip.conf should look similar to this (wiki - CLOUDIQ/Python+Library+Installation):
+# [global]
+# index-url = https://amaas-eos-mw1.cec.lab.emc.com/artifactory/api/pypi/UnityCloud_PyPI_all/simple
+# cert = ~/Documents/certs/CloudIQ_CA_bundle.pem
+
